@@ -8,6 +8,9 @@ just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
 
+define( 'TEMPPATH', get_bloginfo('stylesheet_directory'));
+define( 'IMAGES', TEMPPATH. "/library/images/");
+
 /************* INCLUDE NEEDED FILES ***************/
 
 /*
